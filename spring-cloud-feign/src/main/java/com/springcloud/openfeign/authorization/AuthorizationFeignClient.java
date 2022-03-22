@@ -13,6 +13,7 @@ public interface AuthorizationFeignClient {
     @PostMapping(path = "/permissions/check",
             consumes = MediaType.APPLICATION_JSON_VALUE,
             produces = MediaType.APPLICATION_JSON_VALUE)
-    boolean checkPermission(@RequestHeader("Authorization") String authorizationHeader, @RequestBody String permissionRequest);
+    boolean checkPermission(@RequestHeader("Authorization") String authorizationHeader,
+                            @RequestBody String permissionRequest);
 
 }

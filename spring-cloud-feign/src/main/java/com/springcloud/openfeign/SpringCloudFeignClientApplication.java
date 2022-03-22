@@ -12,6 +12,8 @@ import org.springframework.context.annotation.Bean;
 // Provides OpenFeign integrations for Spring Boot apps through autoconfiguration
 // https://docs.spring.io/spring-cloud-openfeign/docs/4.0.0-M1/reference/html/
 
+// 查看该类型的源码
+// FeignClientFactoryBean feignClientFactoryBean;
 @SpringBootApplication
 @EnableFeignClients
 public class SpringCloudFeignClientApplication {
