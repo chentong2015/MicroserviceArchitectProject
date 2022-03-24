@@ -5,3 +5,5 @@ J
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 v
 Fmicroservice-nacos/src/main/java/com/microservice/nacos/BaseNacos.java,c\b\cb212ff672a13a4e2cbfbc2b9cc96defa35128b4
+J
+spring-cloud-feign/pom.xml,d\b\db3742f0e0cb8a521818133e0a1f66798225c8c4

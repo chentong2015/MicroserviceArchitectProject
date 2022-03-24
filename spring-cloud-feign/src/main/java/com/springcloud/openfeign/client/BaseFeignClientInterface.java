@@ -1,4 +1,4 @@
-package com.springcloud.openfeign.base;
+package com.springcloud.openfeign.client;
 
 import org.bouncycastle.util.Store;
 import org.springframework.cloud.openfeign.FeignClient;
@@ -8,9 +8,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
 
-// 作为客户端而言，只是向指定的API发送数据，拿到返回的信息
-@FeignClient("stores")
-public interface StoreFeignClient {
+// TODO. 作为客户端而言，只是向指定的API发送数据，拿到返回的信息
+@FeignClient("name")
+public interface BaseFeignClientInterface {
+
+    // 构建在Feign @RequestLine架构之上
+    @RequestMapping("/")
+    String getName();
 
     @RequestMapping(method = RequestMethod.GET, value = "/stores")
     List<Store> getStores();
