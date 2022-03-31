@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.cloud.openfeign.FeignClientBuilder;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 
 // Provides OpenFeign integrations for Spring Boot apps through autoconfiguration
@@ -20,6 +22,14 @@ public class SpringCloudFeignClientApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SpringCloudFeignClientApplication.class, args);
+    }
+
+    private static void test(ApplicationContext applicationContext) {
+        FeignClientBuilder clientBuilder = new FeignClientBuilder(applicationContext);
+        // 创建指定类型的Feign Client, 通过调用方法来发送请求
+        clientBuilder.forType(DefaultAuthorizationClient.class, "name")
+                .url("base url for the request")
+                .build();
     }
 
     @Bean
