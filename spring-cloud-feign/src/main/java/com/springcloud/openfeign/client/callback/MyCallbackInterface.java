@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
         name = "test",
         url = "http://localhost:${server.port}/",
         fallback = MyCallback.class)
-public interface BaseCallbackFeignClientInterface {
+public interface MyCallbackInterface {
 
     @RequestMapping(method = RequestMethod.GET, value = "/hello")
     String getHello();
