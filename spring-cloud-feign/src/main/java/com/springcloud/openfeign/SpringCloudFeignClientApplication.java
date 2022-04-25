@@ -17,6 +17,8 @@ import org.springframework.context.annotation.Bean;
 
 // 查看该类型的源码 FeignClientFactoryBean feignClientFactoryBean;
 @SpringBootApplication
+// TODO. Enable component scanning for interfaces that declare they are Feign clients
+//  通过添加注解来自动"注入"所有标记了@FeignClient("authz")注解class(interface)
 @EnableFeignClients
 public class SpringCloudFeignClientApplication {
 
