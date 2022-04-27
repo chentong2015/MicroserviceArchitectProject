@@ -1,0 +1,9 @@
+
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(å·˜üÿÿÿÿ8ÂºÀ0
+u
+java:S2975"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(¦‘çáüÿÿÿÿ8ÄºÀ0
+6
+java:S2225"Return a non null object.(¥¹ï8ÅºÀ0
+j
+java:S1182"HUse super.clone() to create and seed the cloned instance to be returned.(¦‘çáüÿÿÿÿ8ÅºÀ0

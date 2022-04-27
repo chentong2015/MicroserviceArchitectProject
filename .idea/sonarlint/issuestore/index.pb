@@ -5,8 +5,6 @@ J
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 v
 Fmicroservice-nacos/src/main/java/com/microservice/nacos/BaseNacos.java,c\b\cb212ff672a13a4e2cbfbc2b9cc96defa35128b4
-ñ
-fspring-cloud-feign/src/main/java/com/springcloud/openfeign/authorization/AuthorizationFeignClient.java,2\4\24923854ead67e532767f37c00e810c9d88e4eac
 ò
 hspring-cloud-feign/src/main/java/com/springcloud/openfeign/authorization/DefaultAuthorizationClient.java,c\5\c529515cad7e58ba5db20774c7318504b7e26fb9
 ã
@@ -17,3 +15,9 @@ dspring-cloud-feign/src/main/java/com/springcloud/openfeign/client/RetryableFeig
 _spring-cloud-feign/src/main/java/com/springcloud/openfeign/client/BaseFeignClientInterface.java,3\5\358e924965bf09df0d5b7cc0de9dfad2fa36c25c
 ù
 mspring-cloud-feign/src/main/java/com/springcloud/openfeign/authorization/DefaultAuthorizationFeignClient.java,c\f\cf4d47fcb6a7a6e41080fc4f44140d3c30aef579
+å
+\spring-cloud-feign/src/main/java/com/springcloud/openfeign/client/retryer/NativeRetryer.java,8\a\8a6af9edd1fa70227ff9337bbc1f0b446402b64b
+ì
+cspring-cloud-feign/src/main/java/com/springcloud/openfeign/client/callback/MyCallbackInterface.java,4\e\4e6afb1f1ec8005c9011bf222d8d2a2e8325785f
+ä
+Zspring-cloud-feign/src/main/java/com/springcloud/openfeign/client/callback/MyCallback.java,0\f\0f8537e90e172d6697dc102b3acb2d6abfb714b5
