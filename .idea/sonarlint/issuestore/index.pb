@@ -3,8 +3,6 @@ J
 microservice-nacos/pom.xml,4\4\4432901f8fbfdef50c8a278409f9435815a5351e
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-v
-Fmicroservice-nacos/src/main/java/com/microservice/nacos/BaseNacos.java,c\b\cb212ff672a13a4e2cbfbc2b9cc96defa35128b4
 ˜
 hspring-cloud-feign/src/main/java/com/springcloud/openfeign/authorization/DefaultAuthorizationClient.java,c\5\c529515cad7e58ba5db20774c7318504b7e26fb9
 ‹
@@ -21,3 +19,9 @@ mspring-cloud-feign/src/main/java/com/springcloud/openfeign/authorization/Defaul
 cspring-cloud-feign/src/main/java/com/springcloud/openfeign/client/callback/MyCallbackInterface.java,4\e\4e6afb1f1ec8005c9011bf222d8d2a2e8325785f
 Š
 Zspring-cloud-feign/src/main/java/com/springcloud/openfeign/client/callback/MyCallback.java,0\f\0f8537e90e172d6697dc102b3acb2d6abfb714b5
+Š
+Zspring-cloud-feign/src/main/java/com/springcloud/openfeign/demo/MyClientConfiguration.java,0\2\028796c91be03b881d6bdea4e9f084674ee4faed
+–
+fspring-cloud-feign/src/main/java/com/springcloud/openfeign/authorization/AuthorizationFeignClient.java,2\4\24923854ead67e532767f37c00e810c9d88e4eac
+J
+spring-cloud-feign/pom.xml,d\b\db3742f0e0cb8a521818133e0a1f66798225c8c4

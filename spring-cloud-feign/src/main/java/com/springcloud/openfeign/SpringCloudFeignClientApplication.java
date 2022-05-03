@@ -16,6 +16,10 @@ import org.springframework.context.annotation.Bean;
 // 查看该类型的源码 FeignClientFactoryBean feignClientFactoryBean
 // https://docs.spring.io/spring-cloud-openfeign/docs/current/reference/html/
 
+// 分布式系统中，网关层或应用层调用"后端的微服务"，通常使用SpringCloud Feign去调用，简单方便
+// 开发环境和测试环境共用一套nacos
+// https://icode.best/i/03263743301620 feign根据环境动态指定服务名
+
 @SpringBootApplication
 @EnableFeignClients
 public class SpringCloudFeignClientApplication {
