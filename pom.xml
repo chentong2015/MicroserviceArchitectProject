@@ -11,6 +11,7 @@
     <modules>
         <module>spring-cloud-feign</module>
         <module>microservice-nacos</module>
+        <module>microservice-core</module>
     </modules>
 
     <properties>
