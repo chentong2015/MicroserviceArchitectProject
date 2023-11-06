@@ -7,8 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-core" />
-        <module name="spring-cloud-feign" />
+        <module name="spring-cloud-openfeign" />
         <module name="microservice-nacos" />
+        <module name="spring-cloud-config-server" />
       </profile>
     </annotationProcessing>
   </component>
