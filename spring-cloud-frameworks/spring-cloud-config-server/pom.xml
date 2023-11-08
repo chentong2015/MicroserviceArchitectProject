@@ -17,12 +17,11 @@
     </properties>
 
     <dependencies>
-        <!-- config-server依赖可能存在安全问题 -->
+        <!-- TODO. Spring Cloud Config Server存在潜在安全问题，实战项目中应该减少使用 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-server</artifactId>
             <version>4.0.4</version>
         </dependency>
     </dependencies>
-
 </project>
