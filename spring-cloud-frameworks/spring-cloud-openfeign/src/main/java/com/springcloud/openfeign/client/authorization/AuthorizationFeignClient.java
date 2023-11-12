@@ -1,4 +1,4 @@
-package com.springcloud.openfeign.authorization;
+package com.springcloud.openfeign.client.authorization;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;
@@ -10,11 +10,10 @@ import org.springframework.web.bind.annotation.RequestHeader;
 @FeignClient("authz")
 public interface AuthorizationFeignClient {
 
-    // TODO. produces指要提供的数据格式，consumes指返回的消费数据格式
+    // produces指要提供的数据格式，consumes指返回的消费数据格式
     @PostMapping(path = "/permissions/check",
             consumes = MediaType.APPLICATION_JSON_VALUE,
             produces = MediaType.APPLICATION_JSON_VALUE)
     boolean checkPermission(@RequestHeader("Authorization") String authorizationHeader,
                             @RequestBody String permissionRequest);
-
 }

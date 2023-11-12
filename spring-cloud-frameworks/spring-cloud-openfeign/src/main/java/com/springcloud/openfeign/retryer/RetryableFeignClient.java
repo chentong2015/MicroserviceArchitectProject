@@ -1,10 +1,10 @@
-package com.springcloud.openfeign.client;
+package com.springcloud.openfeign.retryer;
 
 import org.springframework.cloud.openfeign.FeignClient;
 
 import java.lang.annotation.*;
 
-// 封装了OpenFeign的配置和参数的使用
+// 封装OpenFeign的配置和参数的使用
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @FeignClient

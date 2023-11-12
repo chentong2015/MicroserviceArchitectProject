@@ -1,4 +1,4 @@
-package com.springcloud.openfeign.client.retryer;
+package com.springcloud.openfeign.retryer;
 
 import feign.RetryableException;
 import feign.Retryer;
@@ -10,7 +10,6 @@ public class NativeRetryer implements feign.Retryer {
 
     @Override
     public void continueOrPropagate(RetryableException e) {
-
     }
 
     @Override

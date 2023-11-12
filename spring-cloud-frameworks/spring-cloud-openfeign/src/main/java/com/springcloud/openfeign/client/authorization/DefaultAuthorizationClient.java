@@ -1,4 +1,4 @@
-package com.springcloud.openfeign.authorization;
+package com.springcloud.openfeign.client.authorization;
 
 public interface DefaultAuthorizationClient {
 

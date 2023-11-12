@@ -1,18 +1,6 @@
 
 J
 microservice-nacos/pom.xml,4\4\4432901f8fbfdef50c8a278409f9435815a5351e
-I
-microservice-core/pom.xml,e\4\e4d57d4d268ef76393d2b507e7c37ed06d0c80dc
-´
-{spring-cloud-frameworks/spring-cloud-openfeign/src/main/java/com/springcloud/openfeign/client/BaseFeignClientInterface.java,a\d\ad1dfc6d68bce42da944bccf61e64b463897fde5
-ß
-wspring-cloud-frameworks/spring-cloud-openfeign/src/main/java/com/springcloud/openfeign/client/RetryableFeignClient.java,f\e\fe50aba3631939e693eb99ce4bfbc15a93279183
-≥
-Çspring-cloud-frameworks/spring-cloud-openfeign/src/main/java/com/springcloud/openfeign/authorization/AuthorizationFeignClient.java,a\e\aeedaac5681c401ea56b7b3abac5bebdf4c790aa
-µ
-Ñspring-cloud-frameworks/spring-cloud-openfeign/src/main/java/com/springcloud/openfeign/authorization/DefaultAuthorizationClient.java,5\b\5b8640cee69f7ed1a772a2b3d12bc8ab8898c64f
-f
-6spring-cloud-frameworks/spring-cloud-openfeign/pom.xml,2\2\227fe12e5a7e59cb14c018070d8296d50be88f83
 ô
 ispring-cloud-frameworks/spring-cloud-config-server/src/main/java/com/example/ConfigServerApplication.java,6\b\6b70ba49e5bb0a6ec42382cf92c63696d52977b7
 7
@@ -33,3 +21,7 @@ O
 spring-cloud-frameworks/pom.xml,1\9\19a3166fb0031a4bdf4acb181161b9672ceed48a
 d
 4spring-cloud-frameworks/spring-cloud-gateway/pom.xml,6\f\6f46ed8d680b358e63837168568d02731b48bf3a
+h
+8microservice-core/Microservice/MicroserviceÂæÆÊúçÂä°.txt,0\9\090ee947207b571d17b6bc9a4991361ce0d4869d
+v
+Fmicroservice-nacos/src/main/java/com/microservice/nacos/BaseNacos.java,c\b\cb212ff672a13a4e2cbfbc2b9cc96defa35128b4

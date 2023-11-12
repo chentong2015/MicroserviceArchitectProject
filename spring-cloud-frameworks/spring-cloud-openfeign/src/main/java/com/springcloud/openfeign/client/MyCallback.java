@@ -1,4 +1,4 @@
-package com.springcloud.openfeign.client.callback;
+package com.springcloud.openfeign.client;
 
 import org.springframework.cloud.client.circuitbreaker.NoFallbackAvailableException;
 
