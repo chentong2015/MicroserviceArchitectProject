@@ -63,3 +63,7 @@ xspring-cloud-frameworks/spring-cloud-openfeign/src/main/java/com/springcloud/op
 zspring-cloud-frameworks/spring-cloud-openfeign/src/main/java/com/springcloud/openfeign/builder/BaseFeignClientBuilder.java,a\c\ac6d02ac6bac6f0a29bbfc800a3d3a90d2da8433
 �
 pspring-cloud-frameworks/spring-cloud-openfeign/src/main/java/com/springcloud/openfeign/SpringCloud OpenFeign.txt,f\d\fd3494a3c9e6ba2cfae51e626d6fbaf0d8750f41
+f
+6microservice-core/Serverless/Software as a Service.txt,1\8\1869efcb238a5eb835a04401d15b30080b3f2a24
+h
+8microservice-core/Microservice/Microservice微服务.txt,0\9\090ee947207b571d17b6bc9a4991361ce0d4869d
