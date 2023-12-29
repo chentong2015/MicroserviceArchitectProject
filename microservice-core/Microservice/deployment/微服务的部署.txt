@@ -1,0 +1,19 @@
+微服务的五种部署方式 https://semaphoreci.com/blog/deploy-microservices
+1. Single machine, multiple processes:
+   Buy or rent a server and run the microservices as processes.
+
+2. Multiple machines, multiple processes:
+   The obvious next step is adding more servers and distributing the load,
+   offering more scalability and availability.
+
+3. Containers:
+   Packaging the microservices inside a container makes it easier to deploy.
+   Run along with other services. It’s also the first step towards Kubernetes.
+
+4. Orchestrator:
+   Orchestrators such as Kubernetes or Nomad are complete platforms designed
+   to run thousands of containers simultaneously.
+
+5. Serverless:
+   Serverless allows us to forget about processes, containers, and servers,
+   and run code directly in the cloud.
