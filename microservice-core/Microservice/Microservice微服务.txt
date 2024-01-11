@@ -1,12 +1,15 @@
-应用程序(Library, Web Service)在启动后提供服务，形成不同独立的微服务
+TODO. 微服务的基础认识
+Each Microservice handles dedicated Functional Area (Domain) inside a large-scale app
+Each Microservice can be deployed independently
+Microservice can provide more flexibility to scale
+
+TODO. 如何选择微服务 ？
+1. Microservice cost money to build and operate
+2. Microservice Architect is mainly for large teams, not for small startup
+3. When business grows, manage to migrate single app to microservices
+
+应用程序(Library, Web Service)在启动后提供服务，形成独立的微服务
 1. 服务注册：在服务启动时需要注册，可通过分布式服务框架来管理
 2. 服务发现: 对于系统中的多个服务需要做服务的发现和管理
 3. 服务协作: 不同服务之间存在依赖和相互协作的关系
 4. 服务应该轻量级(lightweight), 每个服务应该只针对特定的Functional Business而构建
-
-关于微服务的部署技术:
-1. 自动化部署         Nexus + jenkins + git + gitLab + docker
-2. 自动化测试和质量管理 Nexus + jenkins + git + gitLab + docker + SonarQube
-3. 监控告警           SpringBoot + Prometheus + Grafana + alertManager + docker
-4. 日志收集和监控      ElasticSearch + Logstash + kibana + cloud sleuth + zipkin + docker
-

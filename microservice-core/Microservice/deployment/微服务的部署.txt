@@ -17,3 +17,10 @@
 5. Serverless:
    Serverless allows us to forget about processes, containers, and servers,
    and run code directly in the cloud.
+
+
+关于微服务的部署技术:
+1. 自动化部署         Nexus + jenkins + git + gitLab + docker
+2. 自动化测试和质量管理 Nexus + jenkins + git + gitLab + docker + SonarQube
+3. 监控告警           SpringBoot + Prometheus + Grafana + alertManager + docker
+4. 日志收集和监控      ElasticSearch + Logstash + kibana + cloud sleuth + zipkin + docker
