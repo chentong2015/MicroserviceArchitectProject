@@ -8,8 +8,8 @@ TODO. 如何选择微服务 ？
 2. Microservice Architect is mainly for large teams, not for small startup
 3. When business grows, manage to migrate single app to microservices
 
-应用程序(Library, Web Service)在启动后提供服务，形成独立的微服务
-1. 服务注册：在服务启动时需要注册，可通过分布式服务框架来管理
-2. 服务发现: 对于系统中的多个服务需要做服务的发现和管理
-3. 服务协作: 不同服务之间存在依赖和相互协作的关系
-4. 服务应该轻量级(lightweight), 每个服务应该只针对特定的Functional Business而构建
+程序在启动后提供服务，形成独立的微服务
+1. 服务注册：服务启动时需要注册并分布式服务框架来管理
+2. 服务发现: 服务发现主要为了在微服务之间定位并相互通讯 ！！
+3. 服务协作: 微服务之间的依赖和通讯
+4. 服务轻量级(lightweight), 每个服务应该只针对特定的Functional Business构建
