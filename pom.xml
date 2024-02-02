@@ -8,10 +8,11 @@
     <artifactId>MicroserviceFrameworkProject</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
-        <module>microservice-nacos</module>
         <module>microservice-core</module>
         <module>spring-cloud-frameworks</module>
+        <module>microservice-register-discovery</module>
     </modules>
 
     <properties>

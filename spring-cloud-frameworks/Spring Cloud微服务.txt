@@ -1,0 +1,1 @@
+Spring Cloud的项目基本都依赖与Spring Boot包

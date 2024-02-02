@@ -8,9 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cloud-gateway" />
         <module name="spring-cloud-openfeign" />
-        <module name="microservice-nacos" />
+        <module name="microservice-user-provider" />
+        <module name="microservice-order-ribbon" />
         <module name="spring-cloud-config-server" />
+        <module name="spring-cloud-netflix-eureka" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservice-nacos" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
