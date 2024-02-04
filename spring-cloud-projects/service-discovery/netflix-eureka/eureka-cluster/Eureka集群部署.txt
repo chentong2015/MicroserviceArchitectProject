@@ -1,0 +1,2 @@
+部署多个Eureka实例，提供高可用性
+https://cloud.spring.io/spring-cloud-netflix/reference/html/#spring-cloud-eureka-server-peer-awareness

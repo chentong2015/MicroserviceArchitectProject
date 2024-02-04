@@ -11,8 +11,7 @@
 
     <modules>
         <module>microservice-core</module>
-        <module>spring-cloud-frameworks</module>
-        <module>microservice-register-discovery</module>
+        <module>spring-cloud-projects</module>
     </modules>
 
     <properties>

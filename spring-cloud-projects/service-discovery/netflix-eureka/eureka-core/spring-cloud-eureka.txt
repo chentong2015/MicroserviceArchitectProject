@@ -1,0 +1,5 @@
+Eureka is the Netflix Service Discovery Server and Client.
+
+Provides meta-data such as host, port, health indicator URL, home page, and other details.
+Eureka receives heartbeat messages from each instance belonging to a service.
+If the heartbeat fails, the instance is normally removed from the registry.
