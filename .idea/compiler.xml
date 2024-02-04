@@ -24,6 +24,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="microservice-order-ribbon" options="-parameters" />
       <module name="microservice-user-client" options="-parameters" />
+      <module name="spring-cloud-gateway" options="-parameters" />
       <module name="spring-cloud-netflix-eureka" options="-parameters" />
     </option>
   </component>

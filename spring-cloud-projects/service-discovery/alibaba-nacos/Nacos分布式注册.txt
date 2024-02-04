@@ -1,3 +1,2 @@
 Spring Cloud Alibaba Nacos
-发现、配置和管理微服务
-心跳机制的实现是基于Http协议来发送
+服务注册和发现、配置和管理微服务

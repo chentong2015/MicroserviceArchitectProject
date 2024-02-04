@@ -14,9 +14,8 @@
 
     <modules>
         <module>service-discovery</module>
-        <module>spring-cloud-openfeign</module>
         <module>spring-cloud-config-server</module>
-        <module>spring-cloud-gateway</module>
+        <module>spring-cloud-openfeign</module>
     </modules>
 
     <properties>

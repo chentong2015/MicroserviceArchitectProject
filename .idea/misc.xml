@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/microservice-user-provider/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-projects/service-discovery/netflix-eureka/microservice-order-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-projects/service-discovery/netflix-eureka/microservice-user-client/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-projects/spring-cloud-gateway/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
