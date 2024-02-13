@@ -15,6 +15,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/microservice-core/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-nacos/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-register-discovery/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-frameworks/pom.xml" />
