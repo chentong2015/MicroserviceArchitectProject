@@ -1,3 +1,5 @@
 SOA(面向服务架构): 一种基于服务开发的思维方式，通过服务拆分来构建大型复杂系统
 Architectural style that focuses on discrete services instead of a monolithic design
 
+SOA实战运用:
+- 不同的服务可以通过传入Event事件触发来激活
