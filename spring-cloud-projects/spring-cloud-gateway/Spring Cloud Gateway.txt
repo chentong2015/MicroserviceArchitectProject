@@ -1,3 +1,6 @@
-Spring Cloud Gateway 网关路由
-- Libraries for building an API Gateway on top of Spring WebFlux or Spring WebMVC
-- Provide a simple, yet effective way to route to APIs
+Spring Cloud Gateway:
+Provide a simple and effective way to route to APIs
+Libraries for building an API Gateway on top of Spring WebFlux or Spring WebMVC
+
+API Gateway:
+将来自移动端的请求路由到服务实例(通过服务发现查找)

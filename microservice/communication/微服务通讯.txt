@@ -1,7 +1,0 @@
-Microservice communicate with each other by defined interfaces/surface area
-
-每个独立的微服务之间通过定义好的借口或者API进行通讯:
-- REST API Endpoints
-- gPRC
-- Event Streaming
-- Message Broker

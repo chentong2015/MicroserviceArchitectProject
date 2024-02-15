@@ -1,0 +1,11 @@
+TODO. 微服务之间的通信属于进程间通信(IPC)
+1. 通信风格
+2. 服务发现，如何获取服务实例的IP地址
+3. 通信的可靠性
+4. 事务信消息
+
+外部API进行通讯
+- REST API Endpoints
+- gPRC
+- Event Streaming
+- Message Broker
