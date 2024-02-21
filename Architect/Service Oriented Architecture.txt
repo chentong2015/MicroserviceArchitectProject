@@ -17,4 +17,4 @@ SOA Patterns:
 TODO. SOA的特点(区别于Microservice)
 1. 服务之间的通信采用重量级协议SOAP
 2. 采用全局数据模型共享数据库
-3. 善于集成大型的复杂单体应用程序
+3. 善于集成大型的复杂单体应用程序Monolithic
