@@ -2,7 +2,7 @@
 Each Microservice handles dedicated Functional Area (Domain) inside a large-scale app
 Each Microservice can be deployed independently，flexibility to scale
 
-什么时候选择微服务?
+什么时候选择微服务 ?
 1. Microservice cost money to build and operate
 2. Microservice Architect is mainly for large teams, not for small startup
 3. When business grows, manage to migrate single app to microservices
