@@ -18,7 +18,6 @@ TODO. 如何定义一个微服务架构 ?
 2. 定义/通过特定的服务来满足系统操作
 3. 定义服务API和协作方式
 
-
 Microservices Patterns 微服务架构和运维
 https://microservices.io/
 https://github.com/microservices-patterns/ftgo-application
