@@ -1,5 +1,4 @@
-微服务基础:
-轻量级(lightweight)，针对特定的Functional Business构建
+微服务: 轻量级(lightweight)
 Each Microservice handles dedicated Functional Area (Domain) inside a large-scale app
 Each Microservice can be deployed independently，flexibility to scale
 
@@ -8,17 +7,12 @@ Each Microservice can be deployed independently，flexibility to scale
 2. Microservice Architect is mainly for large teams, not for small startup
 3. When business grows, manage to migrate single app to microservices
 
-TODO. 微服务的特点(区别于SOA)
-1. 服务之间点对点通信，采用轻量级协议，REST / gRPC
-2. 每个服务都具有独立的数据库
-3. 微服务的规模大小并不重要
-
 TODO. 如何定义一个微服务架构 ?
 1. 从用户需求开始定义系统操作(功能性需求)
 2. 定义/通过特定的服务来满足系统操作
 3. 定义服务API和协作方式
 
-Microservices Patterns 微服务架构和运维
-https://microservices.io/
-https://github.com/microservices-patterns/ftgo-application
-https://www.mianshigee.com/tutorial/hands-on-microservices/readme.md
+TODO. 微服务的特点(区别于SOA)
+1. 服务之间点对点通信，采用轻量级协议，REST / gRPC
+2. 每个服务都具有独立的数据库
+3. 微服务的规模大小并不重要

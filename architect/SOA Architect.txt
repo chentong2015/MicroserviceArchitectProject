@@ -1,5 +1,4 @@
-一种软件架构类型，一种基于服务开发的架构风格
-SOA: Service Oriented Architecture
+SOA: Service Oriented Architecture 架构类型 & 架构风格
 Service-based development and the outcomes of services
 Integrate distributed, separately maintained and deployed software components
 
