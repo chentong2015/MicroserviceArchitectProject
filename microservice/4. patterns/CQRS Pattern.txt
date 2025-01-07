@@ -1,0 +1,2 @@
+CQRS: Command Query Responsibility Segregation
+命令查询责任分离, 将数据的更新操作和查询进行分离
