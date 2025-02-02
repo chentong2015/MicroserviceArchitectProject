@@ -1,19 +1,19 @@
-SOA: Service Oriented Architecture 架构类型 & 架构风格
+SOA: 一种架构类型和风格
+Service Oriented Architecture
 Service-based development and the outcomes of services
 Integrate distributed, separately maintained and deployed software components
 
-Service Properties 服务的特性
+Service Properties:
+- Self-contained, inner workings is hidden
 - Business activity with a specified outcome
-- Self-contained
-- Service's inner workings is hidden
 - Composed of other services
 
-TODO. SOA Patterns 服务的提供和消费
+TODO. SOA Patterns:
 - Service provider
 - Service broker, service registry or service repository
 - Service requester/consumer
 
-TODO. SOA的特点(区别Microservice)
+TODO. SOA的特点(区别微服务)
 1. 服务之间的通信采用重量级协议SOAP(Legacy Application)
 2. 采用全局数据模型共享数据库
-3. 善于集成大型的复杂单体应用程序Monolithic
+3. 集成大型的复杂单体应用程序Monolithic
