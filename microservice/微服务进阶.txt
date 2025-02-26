@@ -1,4 +1,0 @@
-Microservices Patterns 微服务架构和运维
-https://microservices.io/
-https://github.com/microservices-patterns/ftgo-application
-https://www.mianshigee.com/tutorial/hands-on-microservices/readme.md

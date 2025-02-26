@@ -16,3 +16,7 @@ TODO. 微服务的特点(区别于SOA)
 1. 服务之间点对点通信，采用轻量级协议，REST / gRPC
 2. 每个服务都具有独立的数据库
 3. 微服务的规模大小并不重要
+
+https://microservices.io/
+https://github.com/microservices-patterns/ftgo-application
+https://www.mianshigee.com/tutorial/hands-on-microservices/readme.md
