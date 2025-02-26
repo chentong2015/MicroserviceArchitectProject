@@ -11,8 +11,7 @@ An Event Driven System
 - Event consumers (or sinks) 消费者应该对事件的发生作出反应Reaction
 - Event channels (broker)    传输事件的管道
 
-TODO. 为什么使用事件驱动? Uncouple 解耦系统的逻辑()
+TODO. 使用事件驱动的本质
 Transmit events among loosely coupled software components and services.
-1. Decouple: 能够实现异步解耦，方便扩展
-2. Invoke: 通过事件来触发不同层次的业务逻辑，避免流程式编程(方法调用)
-3. 不同的服务可以通过传入Event事件触发来激活
+Decouple: 能够实现异步解耦，方便扩展
+Invoke Async: 通过事件来触发(激活)不同层次的业务逻辑，避免流程式编程(直接显式方法调用)
