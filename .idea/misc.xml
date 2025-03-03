@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/spring-cloud-projects/service-discovery/netflix-eureka/microservice-order-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-projects/service-discovery/netflix-eureka/microservice-user-client/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-projects/spring-cloud-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -19,9 +20,9 @@
         <option value="$PROJECT_DIR$/microservice-nacos/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-register-discovery/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-frameworks/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-projects/pom.xml" />
       </set>
     </option>
-    <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

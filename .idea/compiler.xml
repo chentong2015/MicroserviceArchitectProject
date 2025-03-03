@@ -7,18 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cloud-gateway" />
-        <module name="spring-cloud-openfeign" />
         <module name="microservice-order-ribbon" />
         <module name="microservice-user-client" />
         <module name="spring-cloud-config-server" />
         <module name="spring-cloud-netflix-eureka" />
+        <module name="mircoservice-openfeign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="microservice-core" target="11" />
       <module name="microservice-nacos" target="11" />
+      <module name="microservice-order-ribbon" target="17" />
       <module name="microservice-register-discovery" target="17" />
+      <module name="microservice-user-client" target="17" />
       <module name="spring-cloud-frameworks" target="15" />
+      <module name="spring-cloud-projects" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
