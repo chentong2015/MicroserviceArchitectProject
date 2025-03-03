@@ -12,6 +12,13 @@
         <option value="$PROJECT_DIR$/spring-cloud-projects/service-discovery/netflix-eureka/microservice-user-client/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-projects/spring-cloud-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-discovery/netflix-eureka/microservice-user-client/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-discovery/netflix-eureka/microservice-order-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-discovery/netflix-eureka/euroka-client-user/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-discovery/netflix-eureka/netflix-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-discovery/netflix-eureka/euroka-client-order/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-discovery/zuul-eureka/eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-discovery/zuul-eureka/eureka-server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

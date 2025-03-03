@@ -7,9 +7,10 @@
         <groupId>org.example</groupId>
         <artifactId>microservice-discovery</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>netflix-eureka</artifactId>
+    <artifactId>zuul-eureka</artifactId>
     <packaging>pom</packaging>
 
     <properties>

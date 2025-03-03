@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/microservice-discovery/netflix-eureka/microservice-order-ribbon/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-discovery/netflix-eureka/microservice-order-ribbon/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-discovery/netflix-eureka/microservice-user-client/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-discovery/netflix-eureka/microservice-user-client/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-discovery/netflix-eureka/spring-cloud-netflix-eureka/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-discovery/netflix-eureka/spring-cloud-netflix-eureka/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-discovery/netflix-eureka/euroka-client-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-discovery/netflix-eureka/euroka-client-order/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-discovery/netflix-eureka/euroka-client-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-discovery/netflix-eureka/euroka-client-user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-discovery/netflix-eureka/netflix-eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-discovery/netflix-eureka/netflix-eureka-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-discovery/netflix-eureka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-discovery/netflix-eureka/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-discovery/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-discovery/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-discovery/zuul-eureka/eureka-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-discovery/zuul-eureka/eureka-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-discovery/zuul-eureka/eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-discovery/zuul-eureka/eureka-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-discovery/zuul-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-discovery/zuul-eureka/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-discovery/zuul-eureka/zuul-proxy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-discovery/zuul-eureka/zuul-proxy/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-register-discovery/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-register-discovery/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mircoservice-openfeign/src/main/java" charset="UTF-8" />
