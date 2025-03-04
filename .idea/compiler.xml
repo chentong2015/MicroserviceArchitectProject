@@ -7,22 +7,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="euroka-client-user" />
-        <module name="eureka-client" />
         <module name="spring-cloud-config-server" />
         <module name="mircoservice-openfeign" />
         <module name="spring-cloud-gateway" />
-        <module name="zuul-proxy" />
-        <module name="netflix-eureka-server" />
         <module name="euroka-client-order" />
         <module name="eureka-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="eureka-client" target="17" />
       <module name="microservice-core" target="11" />
       <module name="microservice-nacos" target="11" />
       <module name="microservice-register-discovery" target="17" />
+      <module name="spring-cloud-eureka" target="17" />
       <module name="spring-cloud-frameworks" target="15" />
       <module name="spring-cloud-projects" target="17" />
+      <module name="zuul-eureka" target="17" />
+      <module name="zuul-proxy" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -31,7 +32,6 @@
       <module name="eureka-server" options="-parameters" />
       <module name="euroka-client-order" options="-parameters" />
       <module name="euroka-client-user" options="-parameters" />
-      <module name="netflix-eureka-server" options="-parameters" />
       <module name="spring-cloud-gateway" options="-parameters" />
       <module name="zuul-proxy" options="-parameters" />
     </option>

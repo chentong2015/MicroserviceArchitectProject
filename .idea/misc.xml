@@ -19,11 +19,13 @@
         <option value="$PROJECT_DIR$/microservice-discovery/netflix-eureka/euroka-client-order/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-discovery/zuul-eureka/eureka-client/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-discovery/zuul-eureka/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-discovery/netflix-eureka/eureka-server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/microservice-core/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-discovery/zuul-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-nacos/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-register-discovery/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-frameworks/pom.xml" />

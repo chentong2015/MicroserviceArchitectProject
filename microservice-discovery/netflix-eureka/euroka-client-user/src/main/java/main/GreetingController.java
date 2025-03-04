@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class ClientController {
+public class GreetingController {
 
     @Autowired
     @Lazy
@@ -20,6 +20,7 @@ public class ClientController {
     @Value("${server.port}")
     private String portNumber;
 
+    // 获取当前Microservice实例的应用名称和端口号
     @RequestMapping("/greeting")
     public String greeting() {
         System.out.println("Request received on port number " + portNumber);

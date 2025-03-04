@@ -13,8 +13,6 @@
         <module>microservice-discovery</module>
         <module>mircoservice-openfeign</module>
         <module>spring-cloud-config-server</module>
-        <module>microservice-discovery/zuul-eureka</module>
-        <module>microservice-discovery/zuul-eureka/zuul-proxy</module>
     </modules>
 
     <properties>
