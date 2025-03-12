@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="euroka-client-user" />
-        <module name="spring-cloud-config-server" />
-        <module name="mircoservice-openfeign" />
         <module name="spring-cloud-gateway" />
+        <module name="microservice-openfeign" />
+        <module name="euroka-client-user" />
         <module name="euroka-client-order" />
         <module name="eureka-server" />
+        <module name="spring-cloud-config-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +19,7 @@
       <module name="microservice-core" target="11" />
       <module name="microservice-nacos" target="11" />
       <module name="microservice-register-discovery" target="17" />
+      <module name="mircoservice-openfeign" target="11" />
       <module name="spring-cloud-eureka" target="17" />
       <module name="spring-cloud-frameworks" target="15" />
       <module name="spring-cloud-projects" target="17" />

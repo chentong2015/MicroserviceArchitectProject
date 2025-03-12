@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-// FeignClient客户端提供配置信息, 于FeignClientBuilder构建方式一致
+// FeignClient客户端提供配置信息, 与FeignClientBuilder构建方式一致
 // 1. Each Feign client is composed of a set of customizable components.
 // 2. For each Feign client, a logger is created by default.
 @FeignClient(value = "testClient", url = "https://localhost:8080/")
